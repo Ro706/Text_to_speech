@@ -9,6 +9,6 @@ myText = input('enter:')
 language = 'en'
 output = gTTS(text=myText,lang=language)
 output.save('gtts.mp3')
-os.system("mpv /data/data/com.termux/files/home")
+os.system("mpv /data/data/com.termux/files/home/Text_to_speech")
 #window user
 #os.system('start gtts.mp3')
