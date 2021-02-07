@@ -9,7 +9,7 @@ elif hour >= 12 and hour <= 16:
     a = 'Good afternoon Rohit'
 else:
     a = 'Good evening Rohit'
-output1=gTTS(text=myText,lang=language)
+output1=gTTS(text=a,lang=language)
 output1.save('wishme.mp3')
 os.system("mpv /data/data/com.termux/files/home/wishme.mp3")
 
