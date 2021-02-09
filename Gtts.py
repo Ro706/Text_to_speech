@@ -1,6 +1,7 @@
 from gtts import gTTS
 from pyfiglet import Figlet
 import os
+import datetime
 
 hour = int(datetime.datetime.now().hour)
 if hour >= 0 and hour < 12:
