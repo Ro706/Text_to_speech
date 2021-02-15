@@ -12,7 +12,7 @@ else:
     a = 'Good evening Rohit'
 output1=gTTS(text=a,lang=language)
 output1.save('wishme.mp3')
-os.system("mpv /data/data/com.termux/files/home/wishme.mp3")
+os.system("mpv /data/data/com.termux/files/home/Text_to_speech/wishme.mp3")
 
 #banner
 f = Figlet(font = 'slant')
@@ -22,6 +22,6 @@ myText = input('enter:')
 language = 'en'
 output = gTTS(text=myText,lang=language)
 output.save('gtts.mp3')
-os.system("mpv /data/data/com.termux/files/home/gtts.mp3")
+os.system("mpv /data/data/com.termux/files/home/Text_to_speech/gtts.mp3")
 #window user
 #os.system('start gtts.mp3')
